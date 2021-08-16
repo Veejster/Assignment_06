@@ -4,7 +4,7 @@
 # Change Log: (Who, When, What)
 # DBiesinger, 2030-Jan-01, Created File
 # VJackson, 2021-Aug-15, Updated File to 
-#                        add fucntions and code
+#                        add functions and code
 #------------------------------------------#
 
 # -- DATA -- #
@@ -155,7 +155,6 @@ class IO:
     def show_inventory(table):
         """Displays current inventory table.
 
-
         Args:
             table (list of dict): 2D data structure (list of dicts) that holds the data during runtime.
 
@@ -172,7 +171,6 @@ class IO:
     @staticmethod
     def add_choice():
         """Gets user input for new ID, CD Title, and Artist to add to inventory
-
 
         Args:
             None.
