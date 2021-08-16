@@ -42,7 +42,7 @@ class DataProcessor:
     def delete_inventory(delID, table):
         """Function used to delete an element from a list of dictionaries
 
-        References the integer values from user input in function, searches for 
+        References the integer values from user input in variable, searches for 
         element containing key,value, and deletes element from list of dictionaries (lstTbl).
 
         Args:
